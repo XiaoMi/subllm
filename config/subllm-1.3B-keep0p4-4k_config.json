@@ -1,0 +1,23 @@
+{
+  "num_embeddings": 32000,
+  "decoder_embed_dim": 2048,
+  "decoder_ffn_embed_dim": 5504,
+  "hidden_size": 2048, 
+  "decoder_layers": 24,
+  "decoder_attention_heads": 16,
+  "norm_name": "rmsnorm",
+  "mlp_name": "swiglu",
+  "qk_bias": false,
+  "use_fused": false,
+  "attn_type": "vanilla",
+  "tokens_per_sample": 4096,
+  "n_positions": 4096,
+  "padding_idx": 0,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "scale_token_embedding": false,
+  "downsampling_factor_denominator": "0.64",
+  "tie_weights": false,
+  "structure": "TTTTT(TTTTT(TTTT)TTTTT)TTTTT"
+}
+
